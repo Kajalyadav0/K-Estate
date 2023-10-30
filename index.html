@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KEstate - Find your dream house</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h4><i class="bi bi-house-door-fill"></i>House</h4>
+            <div class="right-bx">
+                <ul>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#"><i class="bi bi-globe"></i>Language</a></li>
+                    <li><a href="#">List your Property</a></li>
+                </ul>
+                <div class="account_bx">
+                    <i class="bi bi-app-indicator"></i>
+                    <i class="bi bi-person-circle"></i>
+                </div>
+            </div>
+        </nav>
+        <div class="content">
+            <div class="cont_bx">
+                <h1>Modern <br>house</h1>
+                <p>3 badrooms,1 kitchen,2 bathrooms</p>
+                <div class="weather">
+                    <h6>42°C <span>Very hot</span></h6>
+                </div>
+                <div class="btns_cont">
+                    <i class="bi bi-arrow-left"></i>
+                    <i class="bi bi-arrow-right"></i>
+                </div>
+                <div class="images_bx">
+                    <div class="card">
+                        <img src="img/c1.jpg" alt="">
+                    </div>
+                    <div class="card">
+                        <img src="img/c2.jpg" alt="">
+                    </div>
+                    <div class="card">
+                        <img src="img/c3.jpg" alt="">
+                        <h6>+6</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="choose_bx">
+                <div class="stay_bx">
+                    <button><i class="bi bi-house-door-fill"></i></button>
+                    <button><i class="bi bi-star-fill"></i></button>
+                    <button><i class="bi bi-tv-fill"></i></button>
+                </div>
+                <div class="select">
+                    <div class="card">
+                        <h5>city</h5>
+                        <input type="text" value="Delhi">
+                        <input type="text" value="Mumbai">
+                    </div>
+                    <div class="card">
+                        <h5>People</h5>
+                        <input type="text" value="4 people" id="people">
+                        <button id="people_less">Less</button>
+                        <button id="people_more">More</button>
+
+                    </div>
+                    <div class="card">
+                        <div class="left_box">
+                            <h5>CHECK IN</h5>
+                            <div class="date">
+                                <h3>Sat,05 Jan</h3>
+                                <input type="date" id="checkin" value="2022-11-08">
+                                <i class="bi bi-calendar2-week-fill"></i>
+                            </div>
+                            <button>Less</button>
+                            <button>More</button>
+                        </div>
+                        <div class="right_box">
+                            <h5>CHECK OUT</h5>
+                            <div class="date">
+                                <h3>Sat,06 Jan</h3>
+                                <input type="date" id="checkin" value="2022-11-08">
+                                <i class="bi bi-calendar2-week-fill"></i>
+                            </div>
+                            <button>Less</button>
+                            <button>More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="map">
+        <div class="address_box">
+            <div class="location_box">
+                <h6>Location</h6>
+                <h4>K House</h4>
+
+            </div>
+            <i class="bi bi-fullscreen-exit"></i>
+        </div>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d75958.51792167754!2d-2.3579783965151018!3d53.49162407923832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bae0dfe455711%3A0x6df4febf58f5d816!2sSalford%2C%20UK!5e0!3m2!1sen!2sin!4v1667983547829!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="home">
+        <div class="title_button">
+            <h2>Explore More Properties</h2>
+            <button>See All<i class="bi bi-arrow-right"></i></button>
+        </div>
+        <div class="home_box">
+            <div class="card">
+                <img src="img/card1.jpg" alt="">
+                <div class="content">
+                    <i class="bi bi-balloon-heart"></i>
+                    <div class="cont">
+                        <h4>Delhi</h4>
+                        <p>India</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/card2.jpg" alt="">
+                <div class="content">
+                    <i class="bi bi-balloon-heart"></i>
+                    <div class="cont">
+                        <h4>Jhansi</h4>
+                        <p>India</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/c3.jpg" alt="">
+                <div class="content">
+                    <i class="bi bi-balloon-heart"></i>
+                    <div class="cont">
+                        <h4>Pune</h4>
+                        <p>India</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/c4.jpg" alt="">
+                <div class="content">
+                    <i class="bi bi-balloon-heart"></i>
+                    <div class="cont">
+                        <h4>Mumbai</h4>
+                        <p>India</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/c5.jpg" alt="">
+                <div class="content">
+                    <i class="bi bi-balloon-heart"></i>
+                    <div class="cont">
+                        <h4>Jaipur</h4>
+                        <p>India</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section>
+        <h2>Our Services</h2>
+        <div class="box">
+            <div class="img_bx">
+                <img src="img/bg.jpg" alt="">
+            </div>
+            <div class="cont_box">
+                <h6><span>OUR SERVICE</span></h6>
+                <h1>Comfort is our <br> Top Priority for you</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, architecto.</p>
+                <ul>
+                    <li>Pramium natinal marketing</li>
+                    <li>Maneged viewing</li>
+                    <li>Local area Knowlwdge</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <h4><i class="bi bi-house-door-fill"></i>House</h4>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
